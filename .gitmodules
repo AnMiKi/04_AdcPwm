@@ -1,0 +1,3 @@
+[submodule "00_avr-libs-uart"]
+	path = 00_avr-libs-uart
+	url = https://github.com/AnMiKi/00_avr-libs-uart
