@@ -1,0 +1,32 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build AVR Project",
+      "type": "shell",
+      "command": "make",
+      "args": [],
+      "group": "build",
+      "problemMatcher": [],
+      "detail": "Build project using make"
+    },
+    {
+      "label": "Flash to Arduino",
+      "type": "shell",
+      "command": "make",
+      "args": ["flash"],
+      "group": "build",
+      "problemMatcher": [],
+      "detail": "Upload to Arduino using avrdude"
+    },
+    {
+      "label": "Clean Build",
+      "type": "shell",
+      "command": "make",
+      "args": ["clean"],
+      "group": "build",
+      "problemMatcher": [],
+      "detail": "Clean build files"
+    }
+  ]
+}
